@@ -6,9 +6,9 @@ on:
   pull_request:
       branches-ignore: [ga-ignore-*]
 
-Jobs:
+jobs:
     coding-style:
-        run-on: ubuntu-latest
+        runs-on: ubuntu-latest
         container:
             image: ghcr.io/epitech/coding-style-checker:latest
         steps:
