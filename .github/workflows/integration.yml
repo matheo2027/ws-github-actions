@@ -29,7 +29,7 @@ jobs:
                 fi
                 exit 0
 
-    complie:
+    compile:
         runs-on: ubuntu-latest
         steps:
 
